@@ -80,27 +80,6 @@
 	background-color: rgba(0, 0, 0, .2);
 }
 
-.background-gallery {
-	width: inherit;
-	height: inherit;
-
-	position: absolute;
-
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: center;
-	align-items: center;
-
-	overflow: hidden;
-
-	-webkit-filter: blur(8px);
-	filter: blur(8px);
-}
-.background-gallery video {
-	width: calc(100vh * (760 / 914));
-	height: 100vh;
-}
-
 #content {
 	flex-direction: column;
 
